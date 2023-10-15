@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        maven {
+            url "https://nexus-ci.delta.sbrf.ru/repository/public"
+                credentials {
+                    //Здесь указать свой логин и пароль
+//                    username = System.getenv("wrappedUser")
+//                    password = System.getenv("wrappedPassword")
+                    username = "14565286"
+                    password = "Xfgxthtwf@75634"
+                }
+
+        }
+
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'profiling'
